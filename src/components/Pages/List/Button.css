@@ -1,0 +1,12 @@
+body {
+    background:rgb(134, 110, 87); 
+  }
+  
+  .header{
+    width: 2000px;
+    height: 80px;
+    background: #07080a;
+    border-bottom: 10px solid #7B5427;
+    padding: 14px 16px;
+    margin: auto;
+  }
