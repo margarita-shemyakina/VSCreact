@@ -1,18 +1,14 @@
 import React from 'react';
-import './Button.css'
+import BackBtn from '../Table/BackBtn/BackBtn'
 
 
-class ListItem extends React.Component{
-
-  onclick () {
-    window.location.assign('./list');
-  }
+class ListItem extends React.Component{  
 
   render(){
     return(
-    <div>
-        <button className = "btn" onClick={(e) => this.onclick(e)}>LIST</button>
-		</div>
+      <div>
+        <BackBtn/>
+      </div>
     )
   }
 }
