@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from '../Form/Form';
 import UserList from '../UserList/UserList';
+import BackBtn from '../BackBtn/BackBtn'
 
 
 class TablePage extends React.Component{  
@@ -10,6 +11,7 @@ class TablePage extends React.Component{
       <div>
         <Form/>
         <UserList/>
+        <BackBtn/>
       </div>
     )
   }
