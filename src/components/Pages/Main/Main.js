@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../List/Button';
+import Button from '../List/mine/Button';
 import Autorization from '../Authorization/Autorization';
 
 
