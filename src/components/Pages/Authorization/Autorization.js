@@ -34,10 +34,11 @@ class Autorization extends React.Component{
       return <Redirect to="/users"/>
     }
     return(
+      
      <div className="container">
       <div className="row">
         <form className="form-horizontal" onSubmit={this.onAuthSubmit}>
-          <span className="head">SIGN IN</span>
+          <span className="head">___SIGN IN___</span>
           <div className="form-group">
           <input type="text" className="formauth" id="inputLogin" placeholder="LOGIN" name="login" onChange={this.onInputChange}/>
           </div>
