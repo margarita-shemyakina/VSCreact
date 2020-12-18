@@ -1,13 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import TodoItem from './TodoItem'
+import {ListGroup} from 'react-bootstrap'
+
 
 const TodoList = ({ filteredTodos, actions }) => (
-  <ul className="todo-list">
+  <ListGroup className="todo-list">
     {filteredTodos.map(todo =>
+    <ListGroup.Item variant="warning">
       <TodoItem key={todo.id} todo={todo} {...actions} />
+    </ListGroup.Item>     
     )}
-  </ul>
+  </ListGroup>
 )
 
 TodoList.propTypes = {
