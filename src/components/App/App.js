@@ -8,7 +8,7 @@ import MainList from '../Pages/List/TDList/MainList'
 class App extends React.Component{
 
   render(){ 
-
+  
     return(
       <BrowserRouter>
         <Switch>
@@ -17,8 +17,7 @@ class App extends React.Component{
             <Route path="/list" component={MainList}/>
             <Route render={() => <h2>Page not found 404</h2>}/>
         </Switch>
-        </BrowserRouter>
-      
+      </BrowserRouter>
     )
   }
 }
